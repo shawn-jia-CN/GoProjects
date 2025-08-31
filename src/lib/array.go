@@ -160,3 +160,7 @@ func (a *MyArray) Append(val int) bool {
 	a.length += 1
 	return true
 }
+
+func (a *MyArray) GetDate() []int {
+	return a.data
+}
